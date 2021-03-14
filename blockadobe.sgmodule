@@ -1,0 +1,6 @@
+#!name=Block Adobe Updater
+#!desc=Block Adobe Autoupdate
+
+[Rule]
+PROCESS-NAME,/Users/fiyueh/Library/Application Support/Adobe/com.adobe.ARMDCHelper/Adobe Acrobat Updater.app/Contents/MacOS/Acrobat Updater,REJECT
+PROCESS-NAME,/Applications/Adobe Acrobat DC/Adobe Acrobat.app/Contents/MacOS/AdobeAcrobat,REJECT
